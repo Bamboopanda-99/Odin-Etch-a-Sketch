@@ -18,14 +18,13 @@ body {
 h1 {
   font-size: 6rem;
   text-align: center;
-  color: #ffd60a;
+  color: #ff0ae6;
   font-weight: 900;
-  -webkit-text-stroke: 1px white;
-  margin-top: initial;
+  margin-top: 50px;
 }
 #header {
   padding: 20px;
-  background-color: #003566;
+  background-color: black;
   border-radius: 20px;
   flex-direction: column;
 }
@@ -55,7 +54,7 @@ h1 {
 }
 
 span {
-  font-size: 3rem;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -63,13 +62,9 @@ button {
   width: 150px;
   height: 30px;
   border-radius: 10px;
-  border: 2px solid white;
-  background-color: #ffc300;
-  font-size: 2rem;
+  border: 2px solid black;
+  background-color: #04ff00;
+  font-size: 30px;
   font-weight: 900;
   margin: 10px;
-}
-
-button:hover {
-  background-color: #003566;
 }
